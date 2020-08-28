@@ -1,0 +1,251 @@
+.main{
+    background-color: #FBFCF7;
+}
+.nav-sty{
+width:100%;
+box-shadow: 0rem 0.1rem 1rem black;
+background: #FFFFFF;
+padding: 1rem 2rem;
+animation: nav 700ms ease-in;
+}
+@keyframes nav{
+    0%{
+        transform: translatey(-100%);
+    }
+    90%{
+        transform: translatey(5%);
+    }
+    100%{
+        transform: translatey(0%);
+    }
+}
+.fas{
+    font-size: 1.5rem;
+}
+.nav-sty h4{
+    color: #FF3A58;
+    display: inline;
+    margin: 0 5rem;
+    font-weight: bold;
+}
+.nav-sty ul{
+    display: inline;
+}
+.nav-sty li{
+    display: inline;
+    margin:0 2rem;
+    font-family: Granstander Clean;
+    cursor: pointer;
+}
+li:hover{
+    color:#FF3A58;
+}
+.prof{
+    margin: 0rem 2rem;
+    border: 0.5px solid black;
+    border-radius: 25px;
+    padding: 0.8rem;
+}
+i.fas.fa-user-circle {
+    color: #A0E467;
+    font-size: 1.7rem;
+}
+.secondary{
+    padding: 5rem 10rem;
+}
+.left{
+display: flex;
+flex-direction: column;
+}
+.flt{
+    float: left;
+}
+.like{
+    background: #FDFFD3;
+    height: 62%;
+    padding: 0.4rem;
+    border-radius: 7px;
+    border: 1px solid rgb(224, 224, 224);
+}
+.img-sty{
+    width: 100%;
+    border-radius: 7px;
+    height: 300px;
+    animation: img 1000ms ease-in;
+}
+@keyframes img{
+    0%{
+        transform: translatex(-100%);
+    }
+    90%{
+        transform: translatex(5%);
+    }
+    100%{
+        transform: translatex(0%);
+    }
+}
+.prof1{
+    margin: 1rem 1.5rem 1rem 0;
+    border: 0.5px solid black;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+}
+.pric{
+    box-shadow: 0.1rem 0.1rem 0.5rem;
+    padding: 0.5rem;
+    background: white;
+}
+.pink{
+    color: #FF3A58;
+    margin: 0 1rem;
+    border-bottom: 0.5px solid #FF3A58;
+}
+.btn-sty{
+    background-color: #FF3A58;
+    color: white;
+    font-family: Granstander Clean;
+    padding: 0.3rem !important;
+    width: 60% !important;
+}
+.pric1{
+    padding: 0.5rem;
+    border: 0.5px solid #FF3A58;
+    background: white;
+    color: #FF3A58;
+}
+h3{
+    font-family: Granstander Clean;
+}
+
+.card{
+    margin: 1rem 2rem 0 0;
+}
+.img-card{
+    height: 50px;
+    margin: 0 auto;
+    width: 50px;
+}
+.crd{
+    background: #F6FEFF;
+    padding: 1rem !important;
+}
+.footer{
+    background-color: #635D5D;
+    color: white;
+    margin: 0;
+    padding: 3.5rem;
+    animation: ftr 1000ms ease-in;
+}
+@keyframes ftr{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+ul{
+    list-style: none;
+}
+.fab{
+    font-size: 25px;
+}
+.last{
+    background-color: rgb(126, 123, 123);
+    bottom: 0;
+    margin-bottom: 0;
+    color: white;
+    padding: 0.5rem 0;
+}
+.btn-ftr{
+    font-family: Granstander Clean, Regular;
+    background-color: #FF3A58;
+    color: #FFFFFF;
+    border: 0.5px solid #FF3A58;
+}
+.icn{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .secondary{
+        padding: 2rem;
+    }
+    h2{
+        font-size: 1.8rem !important;
+    }
+    .rate{
+        padding: 1rem;
+    }
+    .footer{
+        background-color: #635D5D;
+        color: white;
+        margin: 0;
+        padding:1rem;
+    }
+  }
+
+  @media only screen and (min-width: 600px)and (max-width: 765px) {
+    .secondary{
+        padding: 1rem;
+    }
+    h2{
+        font-size: 1.8rem !important;
+    }
+    .rate{
+        padding: 1rem;
+    }
+    .footer{
+        background-color: #635D5D;
+        color: white;
+        margin: 0;
+        padding:1rem;
+    }
+  }
+  @media only screen and (min-width: 766px)and (max-width: 886px) {
+    .secondary{
+        padding: 1rem;
+    }
+    h2{
+        font-size: 1.8rem !important;
+    }
+    .rate{
+        padding: 1rem;
+    }
+    .footer{
+        background-color: #635D5D;
+        color: white;
+        margin: 0;
+        padding:1rem;
+    }
+    .call{
+        display: flex;
+    }
+
+  }
+  @media only screen and (min-width: 887px)and (max-width: 1200px) {
+
+    .secondary{
+        padding: 1rem;
+    }
+
+    h2{
+        font-size: 1.8rem !important;
+    }
+    .rate{
+        padding: 1rem;
+    }
+    .footer{
+        background-color: #635D5D;
+        color: white;
+        margin: 0;
+        padding:1rem;
+    }
+
+}

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "edutech"
+    }
+  },
+  "defaultProject": "edutech",
+  "cli": {
+    "analytics": "d4805dea-55a3-46d9-935d-53a844c6f74c"
+  }
 }
